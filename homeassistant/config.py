@@ -102,7 +102,7 @@ logbook:
 map:
 
 # Track the sun
-sun:
+# sun:
 
 # Weather prediction
 sensor:
@@ -118,6 +118,11 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+
+#Custom components
+hello_world:
+
 """
 DEFAULT_SECRETS = """
 # Use this file to store secrets like usernames and passwords.
